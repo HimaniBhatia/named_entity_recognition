@@ -12,26 +12,20 @@ This is a demonstration of named entity recognition.
     `pip install -r requirements.txt`
 
 ## Usage:
-main.py [-h] [--tag] [--word] query
+main.py [-h] tag [word]
 
 Recognizes the named entites
 
 positional arguments:
-  query       The tag/word with whcih to recognize
+  tag         Required. The tag with which to recognize
+  word        Optional. The tag with which to refine the query
 
 optional arguments:
   -h, --help  show this help message and exit
-  --tag       Marks the input as a tag. If not given, --word is required
-  --word      Marks the input as a word. If not given, --tag is required
 
 ## Description:
-### `query`: 
-Required. The string with which the entities will be recognized
+### `tag`: 
+Required. The tag with which the entities will be recognized
 
-### `--tag`:
-Optional. If used, the query to the program will be marked as a TAG.
-If this is not given, then `--word` is requried.
-
-### `--word`:
-Optional. If used, the query to the program will be marked as a WORD.
-If this is not given, then `--tag` is requried.
+### `word`:
+Optional. The word with which given tag will be filtered.

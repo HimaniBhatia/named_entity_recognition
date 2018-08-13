@@ -5,12 +5,6 @@ This is a demonstration of named entity recognition.
 - Python3 installed
 - `pip` installed
 
-## Steps to setup the Project:
-- `git clone` this project or download zip and extract it
-- cd into the project directory and run:
-
-    `pip install -r requirements.txt`
-
 ## Usage:
 main.py [-h] tag [word]
 

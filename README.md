@@ -1,15 +1,11 @@
 # Named Entity Recognition
 This is a demonstration of named entity recognition.
-Problem Statement - 
-1.Searching relevant millions of news articles based on keywords is time consuming.
-  Aim is to cut down the time cost by indexing the news articles by tagging the important 
-  keywords of each news article.
-2.Searching on the basis of certain tags - 'ORGANIZATION','PERSON','LOCATION'.It can then
-  filter out news related to the tag given as input.
-  Let say, if tag = 'ORGANIZATION', then it will filter out news containing "organization' news
-  such as : Apple CEO decides to buy Korean Company
-            Hitachi Data Systems launching new product resolving Water Harvesting Technique.
-  
+
+## Problem Statement 
+Searching relevant millions of news articles based on keywords is time consuming.
+Aim is to cut down the time cost by indexing the news articles by tagging the important 
+keywords of each news article.
+
 ## Pre-requisites:
 - Python3 installed
 - `pip` installed

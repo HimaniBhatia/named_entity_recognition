@@ -3,8 +3,8 @@ This is a demonstration of named entity recognition.
 
 ## Problem Statement 
 Searching relevant millions of news articles based on keywords is time consuming.
-Aim is to cut down the time cost by indexing the news articles by tagging the important 
-keywords of each news article.
+To make Search more affective, main focus is to cut down the time cost by indexing the news articles 
+by tagging the important keywords of each news article.
 
 ## Pre-requisites:
 - Python3 installed
@@ -29,3 +29,11 @@ List of Tags --> 'PERSON','ORGANIZATION','LOCATION'
 
 ### `word`:
 Optional. The word with which given tag will be filtered.
+
+## Scenarios
+### Scenario 1
+main.py ORGANIZATION      Results-> Filter news related to all Organizations.
+### Scenario 2
+main.py ORGANIZATION Apple     Results-> Filter news related to Apple Organization.
+
+

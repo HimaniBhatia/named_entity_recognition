@@ -16,8 +16,8 @@ main.py [-h] tag [word]
 Recognizes the named entites
 
 positional arguments:
-  tag --        Required(The tag with which to recognize)
-  word --       Optional(The tag with which to refine the query)
+ 1. tag --        Required(The tag with which to recognize)
+ 2. word --       Optional(The tag with which to refine the query)
 
 optional arguments:
   -h, --help  show this help message and exit

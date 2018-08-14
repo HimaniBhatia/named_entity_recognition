@@ -24,7 +24,7 @@ optional arguments:
 
 ## Description:
 ### `tag`: 
-Required. The tag with which the entities will be recognized
+Required. The tag with which the entities will be recognized.
 List of Tags --> 'PERSON','ORGANIZATION','LOCATION'
 
 ### `word`:
